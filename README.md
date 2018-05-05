@@ -8,3 +8,5 @@ https://www.youtube.com/watch?v=FsAPt_9Bf3U
 
 When we talked about data and functions that are associated with a specific class we call them attribuites and methods 
 method: is a function associated with a class
+
+now let's create a simple class
