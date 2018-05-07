@@ -42,3 +42,17 @@ idea: put the raise value (common for all employee) in a class variable
 in fact we have class methods and static methods
 
 # video 3
+
+difference between regular methods, class methods and static methods
+regular method within a class automatically take the instance as the first argument
+and by convention we call it "self"
+class method take automatically the class as the first argument, how can we convert a regular method to class method?
+simply add a decorator @classmethod (set_raise_amount)
+for more about decorator : https://www.youtube.com/watch?v=FsAPt_9Bf3U
+the decorator: @classmethod alter the alter the method functionality
+so that we receive the class rather then the instance as the first argument
+within a regular method we call this instance variable "self", and the name of the class variable is "cls"
+
+add new things
+
+test branch
