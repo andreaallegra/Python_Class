@@ -3,9 +3,10 @@
 class Employee:
     def __init__(self, first, last, pay):
         self.first = first  #this is the same as writing emp_1.first = 'Corey'
-        self.last = last
+        self.last = last # instance variables
         self.pay = pay
         self.email = first + '.' + last + "@employee.com"
+
 
     def fullname(self):
         # and use the same login as the first approach
