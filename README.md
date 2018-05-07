@@ -53,6 +53,14 @@ the decorator: @classmethod alter the alter the method functionality
 so that we receive the class rather then the instance as the first argument
 within a regular method we call this instance variable "self", and the name of the class variable is "cls"
 
-add new things
+you can use class method as alternative constructor 4.30'
+ie you can use class method to allow multiple ways to create the objects (new instance for example)
+these class method (constructor) usually starts with from: example: from_string
+an example in the file3 is the class method: from_string
 
-test branch
+static methods: 10.25
+regular methods pass the instance as the first argument and we call it self
+class methods pass the class as the first argument and we call it cls
+static methods don't pass anything aa the first argument so they behave just like normal functions
+but we include them in a class because it has some logical connection with the class
+it should be a static method if you don't access the instance (self)or the class (cls) anywhere within the function
