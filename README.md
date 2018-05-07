@@ -6,6 +6,8 @@ https://www.youtube.com/watch?v=3ohzBxoFHAY
 https://www.youtube.com/watch?v=jCzT9XFZ5bw
 https://www.youtube.com/watch?v=FsAPt_9Bf3U
 
+https://www.youtube.com/watch?v=sugvnHA7ElY
+
 When we talked about data and functions that are associated with a specific class we call them attributes and methods
 method: is a function associated with a class
 
@@ -64,3 +66,34 @@ class methods pass the class as the first argument and we call it cls
 static methods don't pass anything aa the first argument so they behave just like normal functions
 but we include them in a class because it has some logical connection with the class
 it should be a static method if you don't access the instance (self)or the class (cls) anywhere within the function
+
+# video 4
+inheritance
+inheritance allow the inherit attributes and methods from a parent class
+so we can create subclasses and inherit all the functionalities from the parent class
+and add or modify some functionality in the subclass without modify the parent class
+
+idea: create sub type of employee, both types share some properties like names, pay and so
+this subtypes of employee will be defined by subs-classes of the parent class Employee
+when we instantiate the subclass (Developer) python will first look in the subclass for the
+init method and if it doesn't find it will walk up in the chain of inheritance until
+it finds what it is looking for.
+this chain is called Method resolution order which can be investigate with the help function
+the Method resolution order is the place where Python is searching for attributes and methods
+
+you can also want to initiate our subclass with more information that the parent class can handle
+for example I want to pass the developer their main programming language
+and I want to pass it only to developer
+
+use isinstance or issubclass to check it
+
+example of subclass whisky module:
+
+class HTTPException(Exception):
+
+class BadRequest(HTTPException):
+
+next video: special and magic methods
+
+
+
